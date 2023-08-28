@@ -1,0 +1,16 @@
+{
+    "appName": "Prawda czy Wyzwanie AI",
+    "truthOrDare": "Prawda czy Wyzwanie",
+    "startGame": "Rozpocznij grę",
+    "addPlayer": "Dodaj gracza",
+    "letsBegin": "Zaczynamy!",
+    "spinNow": "Kręć teraz",
+    "truth": "PRAWDA",
+    "dare": "WYZWANIE",
+    "playAgain": "Zagraj ponownie",
+    "adsWait": "Proszę czekać, przygotowujemy reklamy, spróbuj ponownie później",
+    "addFirst": "Dodaj najpierw graczy!",
+    "close": "Zamknij",
+    "alert": "Alert",
+    "selectLanguage": "Wybierz język"
+}

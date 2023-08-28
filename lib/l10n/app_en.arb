@@ -1,0 +1,16 @@
+{
+  "appName":"Truth Or Dare AI",
+  "truthOrDare":"Truth Or Dare",
+  "startGame":"Start Game",
+  "addPlayer":"Add Player",
+  "letsBegin":"Let's Begin!",
+  "spinNow":"Spin Now",
+  "truth":"TRUTH",
+  "dare":"DARE",
+  "playAgain":"Play Again",
+  "adsWait":"Please wait, we're preparing ads, please try again",
+  "addFirst":"Please add players first !",
+  "close":"Close",
+  "alert":"Alert",
+  "selectLanguage":"Select Language"
+}

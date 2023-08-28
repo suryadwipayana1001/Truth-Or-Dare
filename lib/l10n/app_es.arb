@@ -1,0 +1,16 @@
+{
+    "appName": "Verdad o Reto IA",
+    "truthOrDare": "Verdad o Reto",
+    "startGame": "Comenzar Juego",
+    "addPlayer": "Agregar Jugador",
+    "letsBegin": "¡Comencemos!",
+    "spinNow": "Girar Ahora",
+    "truth": "VERDAD",
+    "dare": "RETO",
+    "playAgain": "Jugar de Nuevo",
+    "adsWait": "Por favor espera, estamos preparando anuncios, inténtalo de nuevo más tarde",
+    "addFirst": "¡Por favor, agrega jugadores primero!",
+    "close": "Cerrar",
+    "alert": "Alerta",
+    "selectLanguage": "Seleccionar Idioma"
+}
