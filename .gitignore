@@ -1,3 +1,6 @@
+#file
+keystore-truthordare.jks
+/android/key.properties
 # Miscellaneous
 *.class
 *.log
