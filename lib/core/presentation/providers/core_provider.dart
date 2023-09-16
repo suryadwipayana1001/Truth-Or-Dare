@@ -55,6 +55,7 @@ class CoreProvider with ChangeNotifier {
   String? _resultTruthOrDare;
   RewardedAd? _rewardedAd;
   RewardedAd? _rewardAd;
+  bool _adsFailed = false;
   DropdownOption? _language =
       DropdownOption(title: "English", value: "en", index: 0);
   late FocusNode focusNodeAddPlayer = FocusNode();
@@ -94,6 +95,11 @@ class CoreProvider with ChangeNotifier {
     notifyListeners();
   }
 
+  set setAdsFailed(val) {
+    _adsFailed = val;
+    notifyListeners();
+  }
+
   List<Color> get colorSpint => _colorSpin;
   List<String> get playerSpin => _playerSpin;
   RewardedAd? get rewardedAd => _rewardedAd;
@@ -103,6 +109,7 @@ class CoreProvider with ChangeNotifier {
   String? get resultPlayer => _resultPlayer;
   String? get resultTruthOrDare => _resultTruthOrDare;
   DropdownOption? get language => _language;
+  bool get adsFailed => _adsFailed;
 
   Future<void> addPlayer() async {
     String newPlayer = _playerNameController.text.trim();
@@ -148,6 +155,7 @@ class CoreProvider with ChangeNotifier {
   }
 
   void initializeRewardAd() {
+    _adsFailed = false;
     RewardedAd.load(
         adUnitId: AdHelper.rewardedAdUnitId,
         request: const AdRequest(),
@@ -168,6 +176,7 @@ class CoreProvider with ChangeNotifier {
             );
           },
           onAdFailedToLoad: (LoadAdError error) {
+            _adsFailed = true;
             printWarning('RewardedAd failed to load: $error');
           },
         ));

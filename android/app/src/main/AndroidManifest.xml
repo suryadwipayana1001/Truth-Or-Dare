@@ -36,14 +36,14 @@
         <meta-data
             android:name="flutterEmbedding"
             android:value="2" />
-        <!-- <meta-data
+        <meta-data
             android:name="com.google.android.gms.ads.APPLICATION_ID"
             android:value="ca-app-pub-2976731228725494~8866699363"/>
+        <!-- <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-3940256099942544~4354546703" /> -->
         <meta-data
             android:name="com.google.android.gms.ads.DELAY_APP_MEASUREMENT_INIT"
-            android:value="true"/> -->
-        <meta-data
-            android:name="com.startapp.sdk.APPLICATION_ID"
-            android:value="YOUR_APP_ID" />
+            android:value="true"/>
     </application>
 </manifest>

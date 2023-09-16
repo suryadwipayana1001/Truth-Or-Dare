@@ -107,7 +107,6 @@ class _LandingPageState extends State<LandingPage> {
                       ),
                       text: appLoc.startGame,
                       onPressed: () {
-                        provider.initializeRewardAd();
                         Navigator.pushNamed(context, AddPlayerPage.routeName);
                       },
                     ),
